@@ -8,7 +8,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 cp sysctl.conf /etc/sysctl.conf
 cp ufw /etc/default/ufw
 cp before.rules /etc/ufw/before.rules
-cp -r /usr/share/easy-rsa/ /etc/openvpn
+cp -r /usr/share/easy-rsa/ /etc/openvpn/
 
 
 sleep 1
