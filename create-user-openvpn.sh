@@ -7,7 +7,7 @@ echo "Press enter to all promps since everything is already on your ./vars file 
 sleep 4
 
 
-cd /etc/openvpn/easy-rsa/build-key #this is just in case
+cd /etc/openvpn/easy-rsa/ #this is just in case
 /etc/openvpn/easy-rsa/build-key $1
 
 
