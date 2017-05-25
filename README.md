@@ -1,11 +1,19 @@
 # tutorial-darknet
 
+NOTICE: the intent for this scripts are **not** to automatize but to **teach**
+how to install a darknet server with i2p and possible TOR routers to vpn into from
+external places. This is why **the script has no bash codig logic like if/for loops, file checks etc,
+but is all line by line commands with out any logic/checks so students can follow step by step or 
+even copy and paste manually**
 
 
-1. create *Ubuntu server 16.10 x64* on *DigitalOcean* or AWS/RackSpace etc..
+1. create **Ubuntu server 16.10 x64** on **DigitalOcean** or AWS/RackSpace etc..
    This tutorial uses DigitalOcean.
 
 2. Get your new IP and ssh into the server as root@${ip}
+   ```
+   ssh root@${YOURIP}
+   ```
 
 3. clone this repo
    ```
@@ -13,7 +21,7 @@
    ```
 4. run 
    ```
-      cd tutorial-darknet
+      cd ~/tutorial-darknet
      ./packages.sh
 
 
