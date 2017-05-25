@@ -2,15 +2,18 @@
 
 
 
-1. create Ubuntu server 16.10 x64 on DigitalOcean or AWS/RackSpace etc..
+1. create *Ubuntu server 16.10 x64* on *DigitalOcean* or AWS/RackSpace etc..
    This tutorial uses DigitalOcean.
 
-2. Get your new IP and ssh into the server as root@
+2. Get your new IP and ssh into the server as root@${ip}
 
 3. clone this repo
    https://github.com/ChrisFernandez/tutorial-darknet.git
 
-4. run ./packages.sh
+4. run 
+   ```
+      cd tutorial-darknet
+     ./packages.sh
 
 
 5. EDIT the vars file you should have in this repo
@@ -57,6 +60,10 @@
 
 
 
-5. run ./install-vpn.sh
+5. run
+   ```
+   cd ~/tutorial-darknet
+   ./install-vpn.sh
+   ```
 
 
