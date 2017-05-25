@@ -1,0 +1,11 @@
+Diferencia entre el Cliente C++ al original de JAVA.
+
+Mientras Java I2P es un cliente original para la red I2P, 
+i2pd tiene ciertas ventajas y  grandes diferencias:
+- Java I2P tiene aplicaciones integradas para torrents, correo electrónico y así sucesivamente. 
+- I2pd es sólo un enrutador que puede utilizar con otro software a través de la interfaz I2CP. 
+- I2pd no requiere Java. Está escrito en C ++. 
+- I2pd consume menos memoria y CPU. 
+- I2pd se puede compilar en todas partes con gcc incluyendo Rasperry PI y routers. 
+- I2pd tiene algunas optimizaciones importantes que permite una criptografía más rápida 
+que a lo cual resulta en un consumo menor de tiempo y energía del procesador.

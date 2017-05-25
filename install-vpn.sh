@@ -13,11 +13,10 @@ cp -r /usr/share/easy-rsa/ /etc/openvpn/
 
 sleep 1
 
-
-
-cd /etc/openvpn/easy-rsa/
 cp vars /etc/openvpn/easy-rsa/vars
+cd /etc/openvpn/easy-rsa/
 
+. ./vars
 source /etc/openvpn/easy-rsa/vars
 
 /etc/openvpn/easy-rsa/clean-all
