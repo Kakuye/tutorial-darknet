@@ -2,7 +2,7 @@
 
 NOTICE: the intent for this scripts are **not** to automatize but to **teach**
 how to install a darknet server with i2p and possible TOR routers to vpn into from
-external places. This is why **the script has no bash codig logic like if/for loops, file checks etc,
+external places. This is why **the script has no bash codin logic like if/for loops, file checks etc,
 but is all line by line commands with out any logic/checks so students can follow step by step or 
 even copy and paste manually**
 
