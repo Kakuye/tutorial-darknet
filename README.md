@@ -6,7 +6,7 @@ external places. This is why **the script has no bash codin logic like if/for lo
 but is all line by line commands with out any logic/checks so students can follow step by step or 
 even copy and paste manually**
 
-Check at the end of a digital ocean coupon
+Check at the end for a digital ocean **10$ coupon**
 
 Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=FaHGLRGqdcw
 
