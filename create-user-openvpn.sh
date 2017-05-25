@@ -24,3 +24,6 @@ echo "</cert>" >> /etc/openvpn/easy-rsa/users/$1/$1.ovpn
 echo "<key>" >> /etc/openvpn/easy-rsa/users/$1/$1.ovpn
 cat /etc/openvpn/easy-rsa/keys/$1.key >> /etc/openvpn/easy-rsa/users/$1/$1.ovpn
 echo "</key>" >> /etc/openvpn/easy-rsa/users/$1/$1.ovpn
+
+cd /etc/openvpn/easy-rsa/users/
+tar -zcvf ~/$1.tar.gz -C /etc/openvpn/easy-rsa/users/$1 .

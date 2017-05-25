@@ -79,13 +79,34 @@ even copy and paste manually**
    run and edit client.ovpn since this is the client file that will go to your computer/laptop as client.
    ```
    vim /etc/openvpn/client.ovpn #change "remote XX.XX.XX.XX 1194" to your openvpn server, IP 1194
+   ```
+   Next step you have most of it configure so **NOTE** you have to press enter to continue and
+   there are **2** promps to enter Y to sign the certificate with your CA and add a passwd if you like.
+   ```
    cd ~/tutorial-darknet
    source /etc/openvpn/easy-
    ./create-user-openvpn.sh  name_of_user_account 
    ```
 
+7. Now you should have a accountname.tar.gz on your local folder.. this is what you need to copy to your computer
+   in your computer **install openvpn** and locally run:
+   ```
+   scp root@XX.XX.XX.XX:nameofuseraccount.tar.gz .
+   sudo tar -zxvf nameofuseraccount.tar.gz -C /etc/openvpn/   #this is an example for ubuntu
+   sudo tar -zxvf nameofuseraccount.tar.gz -C /etc/openvpn/client  #for Arch linux like Blackarch
+
+   sudo mv /etc/openvpn/nameofuseraccount.ovpn /etc/nameofuseraccount.conf  #as exanple but RTFM for your distro
+   sudo systemctl start openvpn  #ubuntu 
+   ```
+   now RTFM read the documentation in running openvpn client in your laptop/computer..
 
 6. edit firewall.sh
-   ```
    and change the line with port 22 and add your home IP so is not open to everyone
    ```
+   vim firewall.sh
+   ./firewall.sh
+   ufw enable
+   ```
+
+
+7. now we can go ahead and install i2pd
