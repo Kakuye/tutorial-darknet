@@ -102,6 +102,7 @@ even copy and paste manually**
 
 6. edit firewall.sh
    and change the line with port 22 and add your home IP so is not open to everyone
+   **NOTE** if you change this to a diff ip to from you are ssh into the box you will get kick out!!!
    ```
    vim firewall.sh
    ./firewall.sh
@@ -110,3 +111,12 @@ even copy and paste manually**
 
 
 7. now we can go ahead and install i2pd
+   ```
+   ./install-i2p.sh
+   ```
+
+   and thats it for base install
+   run a netstat to check everything that is a i2p server is running on the openvpn interface 10.8.0.1
+   ```
+   netstat -ln
+   ```
