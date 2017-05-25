@@ -1,6 +1,7 @@
 #!/bin/bash
 
 apt-get update
+apt-get -y upgrade 
 apt-get install openvpn easy-rsa
 gunzip -c /usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz > /etc/openvpn/server.conf
 cp server.conf /etc/openvpn/server.conf
