@@ -76,9 +76,11 @@ even copy and paste manually**
    ```
 
 6. now lets add a user to the vpn **you can reuse this script going forward to add friends or more accounts**
-   run
+   run and edit client.ovpn since this is the client file that will go to your computer/laptop as client.
    ```
+   vim /etc/openvpn/client.ovpn #change "remote XX.XX.XX.XX 1194" to your openvpn server, IP 1194
    cd ~/tutorial-darknet
+   source /etc/openvpn/easy-
    ./create-user-openvpn.sh  name_of_user_account 
    ```
 
