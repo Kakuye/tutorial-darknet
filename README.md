@@ -75,4 +75,15 @@ even copy and paste manually**
    ./install-vpn.sh
    ```
 
+6. now lets add a user to the vpn **you can reuse this script going forward to add friends or more accounts**
+   run
+   ```
+   cd ~/tutorial-darknet
+   ./create-user-openvpn.sh  name_of_user_account 
+   ```
 
+
+6. edit firewall.sh
+   ```
+   and change the line with port 22 and add your home IP so is not open to everyone
+   ```

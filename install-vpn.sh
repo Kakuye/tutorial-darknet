@@ -16,6 +16,7 @@ cp -r /usr/share/easy-rsa/ /etc/openvpn/
 sleep 1
 
 cp vars /etc/openvpn/easy-rsa/vars
+cp ~/tutorial-darknet/client.ovpn /etc/openvpn/
 cd /etc/openvpn/easy-rsa/
 
 . ./vars
@@ -39,6 +40,5 @@ sleep 1
 /usr/sbin/openvpn --genkey --secret keys/ta.key
 
 cp /etc/openvpn/easy-rsa/keys/{ta.key,dh2048.pem} /etc/openvpn
-
 systemctl start openvpn@server
 systemctl status openvpn@server
