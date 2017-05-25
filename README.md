@@ -41,7 +41,7 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
    ```
    change to your own info... 
    
-   you will still be asked when next **step 5** for this info and other info bsides.. when this happens just PRESS ENTER
+   you will still be asked when next **step 6** for this info and other info bsides.. when this happens just PRESS ENTER
    also you will be asked to add a password or not, to the cert created. up to you..
    if you do, everytime you add a user you have to add it..
    I recomend to learn just press "ENTER" to everything
@@ -73,13 +73,13 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
 
 
 
-5. run
+6. run
    ```
    cd ~/tutorial-darknet
    ./install-vpn.sh
    ```
 
-6. now lets add a user to the vpn **you can reuse this script going forward to add friends or more accounts**
+7. now lets add a user to the vpn **you can reuse this script going forward to add friends or more accounts**
    run and edit client.ovpn since this is the client file that will go to your computer/laptop as client.
    ```
    vim /etc/openvpn/client.ovpn #change "remote XX.XX.XX.XX 1194" to your openvpn server, IP 1194
@@ -92,7 +92,7 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
    ./create-user-openvpn.sh  name_of_user_account 
    ```
 
-7. Now you should have a accountname.tar.gz on your local folder.. this is what you need to copy to your computer
+8. Now you should have a accountname.tar.gz on your local folder.. this is what you need to copy to your computer
    in your computer **install openvpn** and locally run:
    ```
    scp root@XX.XX.XX.XX:nameofuseraccount.tar.gz .
@@ -104,7 +104,7 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
    ```
    now RTFM read the documentation in running openvpn client in your laptop/computer..
 
-6. edit firewall.sh
+9. edit firewall.sh
    and change the line with port 22 and add your home IP so is not open to everyone
    **NOTE** if you change this to a diff ip to from you are ssh into the box you will get kick out!!!
    ```
@@ -114,7 +114,7 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
    ```
 
 
-7. now we can go ahead and install i2pd
+10. now we can go ahead and install i2pd
    ```
    ./install-i2p.sh
    ```
@@ -125,7 +125,7 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
    netstat -ln
    ```
 
-8. configure **weechat** for irc on the server so you can vpn or ssh into it. and chat from there if dont want to use local client
+11. configure **weechat** for irc on the server so you can vpn or ssh into it. and chat from there if dont want to use local client
    you have to change in all the file the entry "hispauser"
 
    ```
