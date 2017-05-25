@@ -8,8 +8,9 @@
 2. Get your new IP and ssh into the server as root@${ip}
 
 3. clone this repo
-   https://github.com/ChrisFernandez/tutorial-darknet.git
-
+   ```
+   git clone https://github.com/ChrisFernandez/tutorial-darknet.git
+   ```
 4. run 
    ```
       cd tutorial-darknet
