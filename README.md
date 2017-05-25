@@ -30,6 +30,33 @@
    if you do, everytime you add a user you have to add it..
    I recomend to learn just press "ENTER" to everything
 
+   here is the example of when it ask for password and to sign the certificate
+   ```
+   Please enter the following 'extra' attributes
+   to be sent with your certificate request
+   A challenge password []:
+   An optional company name []:
+   Using configuration from /etc/openvpn/easy-rsa/openssl-1.0.0.cnf
+   Check that the request matches the signature
+   Signature ok
+   The Subject's Distinguished Name is as follows
+   countryName           :PRINTABLE:'US'
+   stateOrProvinceName   :PRINTABLE:'MA'
+   localityName          :PRINTABLE:'Boston'
+   organizationName      :PRINTABLE:'BinaryFreedom'
+   organizationalUnitName:PRINTABLE:'OperationsLab'
+   commonName            :PRINTABLE:'server'
+   name                  :PRINTABLE:'server'
+   emailAddress          :IA5STRING:'rek2@binaryfreedom.info'
+   Certificate is to be certified until May 23 00:54:01 2027 GMT (3650 days)
+   Sign the certificate? [y/n]:Y
+
+
+   1 out of 1 certificate requests certified, commit? [y/n]y
+   ```
+
+
+
 5. run ./install-vpn.sh
 
 

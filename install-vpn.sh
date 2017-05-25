@@ -2,7 +2,7 @@
 
 apt-get update
 apt-get -y upgrade 
-apt-get install openvpn easy-rsa
+apt-get -y install openvpn easy-rsa
 gunzip -c /usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz > /etc/openvpn/server.conf
 cp server.conf /etc/openvpn/server.conf
 echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -32,8 +32,11 @@ cp /etc/openvpn/easy-rsa/keys/{server.crt,server.key,ca.crt,ca.key} /etc/openvpn
 
 
 echo "***THIS MAY TAKE A WHILE***"
-/etc/openvpn/build-dh
-openvpn --genkey --secret keys/ta.key
+
+sleep 1 
+
+/etc/openvpn/easy-rsa/build-dh
+/usr/sbin/openvpn --genkey --secret keys/ta.key
 
 cp /etc/openvpn/easy-rsa/keys/{ta.key,dh2048.pem} /etc/openvpn
 
