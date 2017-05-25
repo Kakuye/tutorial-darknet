@@ -143,3 +143,12 @@ Digital Ocean 10$ credit coupon!!!
 ```
 Easily deploy an SSD cloud server on @DigitalOcean in 55 seconds. Sign up using my link and receive $10 in credit: https://m.do.co/t/96e575af1f05
 ```
+
+
+Follow us here:
+https://twitter.com/anarcohacker
+https://twitter.com/rek2fernandez
+https://hispagatos.org/
+http://hackerñol.net/
+https://keybase.io/cfernandez
+
