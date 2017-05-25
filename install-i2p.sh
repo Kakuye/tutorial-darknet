@@ -7,4 +7,3 @@ cp i2pd.conf /etc/i2pd/i2pd.conf
 cp tunnels.conf /etc/i2pd/tunnels.conf
 
 sudo systemctl restart i2pd
-sudo systemctl status i2pd
