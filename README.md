@@ -120,3 +120,16 @@ even copy and paste manually**
    ```
    netstat -ln
    ```
+
+8. configure **weechat** for irc on the server so you can vpn or ssh into it. and chat from there if dont want to use local client
+   you have to change in all the file the entry "hispachati"
+
+   ```
+    cd ~/tutorial-darknet
+    sed -i s/hispauser/whatevernick/g irc.conf
+    ./install-weechat.sh
+   ```
+   ok thats it I recomend you run weechat under "screen" or similar program.
+   That's it. you can run now weechat and it will auto connect to 10.8.0.1 port 6668
+   it will auto connect to some channels like #hispagatos
+   it may take a while since your i2p server is only running 1-2 hours or less..
