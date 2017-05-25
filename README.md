@@ -8,6 +8,7 @@ even copy and paste manually**
 
 Check at the end of a digital ocean coupon
 
+Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=FaHGLRGqdcw
 
 1. create **Ubuntu server 16.10 x64** on **DigitalOcean** or AWS/RackSpace etc..
    This tutorial uses DigitalOcean.
