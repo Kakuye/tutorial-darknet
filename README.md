@@ -125,7 +125,7 @@ Video that goes with this tutorial(In Spanish) https://www.youtube.com/watch?v=F
    ```
 
 8. configure **weechat** for irc on the server so you can vpn or ssh into it. and chat from there if dont want to use local client
-   you have to change in all the file the entry "hispachati"
+   you have to change in all the file the entry "hispauser"
 
    ```
     cd ~/tutorial-darknet
