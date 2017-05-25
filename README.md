@@ -6,6 +6,8 @@ external places. This is why **the script has no bash codin logic like if/for lo
 but is all line by line commands with out any logic/checks so students can follow step by step or 
 even copy and paste manually**
 
+Check at the end of a digital ocean coupon
+
 
 1. create **Ubuntu server 16.10 x64** on **DigitalOcean** or AWS/RackSpace etc..
    This tutorial uses DigitalOcean.
@@ -133,3 +135,9 @@ even copy and paste manually**
    That's it. you can run now weechat and it will auto connect to 10.8.0.1 port 6668
    it will auto connect to some channels like #hispagatos
    it may take a while since your i2p server is only running 1-2 hours or less..
+
+
+
+```
+Easily deploy an SSD cloud server on @DigitalOcean in 55 seconds. Sign up using my link and receive $10 in credit: https://m.do.co/t/96e575af1f05
+```
