@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+echo "make sure you source the vars file in your /etc/openvpn/easy-rsa/vars or . ./vars"
+echo "Press enter to all promps since everything is already on your ./vars file loaded into the enviroment"
+
+sleep 4
+
+
 /etc/openvpn/easy-rsa/build-key $1
 
 
